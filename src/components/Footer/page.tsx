@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Column 1 */}
           <div>
-            <h3 className="text-xl font-bold font-logo mb-4">Graveyard</h3>
+            <h3 className="text-xl font-bold font-logo mb-4">Bazaar</h3>
             <p className="text-sm">
               Embrace the darkness with our chilling streetwear collection. Quality threads for the undead souls.
             </p>
@@ -67,7 +67,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Follow Us</h3>
             <ul className="space-y-2">
               <li>
-                <a href="https://www.instagram.com/graveyard_wear/" className="text-sm hover:underline transition-colors duration-300">
+                <a href="https://www.instagram.com/Bazaar_wear/" className="text-sm hover:underline transition-colors duration-300">
                   Instagram
                 </a>
               </li>
@@ -78,7 +78,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="mt-8 text-center">
           <p className="text-sm">
-            &copy; {new Date().getFullYear()} Graveyard. All rights reserved.
+            &copy; {new Date().getFullYear()} Bazaar. All rights reserved.
           </p>
         </div>
       </div>

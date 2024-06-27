@@ -56,7 +56,7 @@ const SignUpPage: React.FC = () => {
       <div className="max-w-md w-full bg-white rounded-lg shadow-lg p-8">
         <div className="mb-8 text-center">
           <h2 className="text-gray-800 justify-center text-3xl font-logo font-black font-serif flex items-center">
-            GRAVEYARD
+            Bazaar
           </h2>
           <p className="text-gray-700">Sign up to access your account</p>
         </div>

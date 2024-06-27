@@ -124,13 +124,13 @@ const PaymentPageContent: React.FC = () => {
     key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
     amount: order.amount,
     currency: order.currency,
-    name: 'GRAVEYARD',
+    name: 'Bazaar',
     description: `Payment for ${paymentDetails.totalItems} items`,
     order_id: order.id,
     handler: handlePaymentSuccess,
     prefill: {
-      name: user?.name || 'Graveyard',
-      email: user?.email || 'Graveyard@gmail.com',
+      name: user?.name || 'Bazaar',
+      email: user?.email || 'Bazaar@gmail.com',
       contact: user?.phone || '9999999999',
     },
     notes: {

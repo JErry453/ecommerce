@@ -41,7 +41,7 @@ const LoginPage: React.FC = () => {
     <div className="py-12 flex items-center justify-center bg-gray-100 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full bg-white rounded-lg shadow-lg p-8">
         <div className="mb-8 text-center">
-          <h1 className="text-black font-logo text-3xl font-black">GRAVEYARD</h1>
+          <h1 className="text-black font-logo text-3xl font-black">Bazaar</h1>
         </div>
         {error && <p className="text-red-500 text-center mb-4">{error}</p>}
         <form onSubmit={handleSubmit}>
